@@ -7,12 +7,12 @@
 <script>
   export default {
     name: 'my-button',
-  
+
     methods: {
-      onClick () {
+      onClick() {
       }
     }
-  }
+  };
 </script>
 
 <style>

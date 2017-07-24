@@ -64,7 +64,7 @@
 </template>
 
 <script>
-  const log = () => console.log('Welcome to storybook!')
+  const log = () => console.log('Welcome to storybook!');
 
   export default {
     name: 'welcome',
@@ -77,12 +77,12 @@
     },
 
     methods: {
-      onClick (event) {
-        event.preventDefault()
-        this.showApp()
+      onClick(event) {
+        event.preventDefault();
+        this.showApp();
       }
     }
-  }
+  };
 </script>
 
 <style>
